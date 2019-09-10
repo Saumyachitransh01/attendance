@@ -1,9 +1,6 @@
 import pandas as pd
 import csv
 
-print("Debsos DITU")
-print()
-ch = 'y'
 
 
 def addParticipant():
@@ -44,6 +41,8 @@ def extract():
 
 if __name__ == '__main__':
     running = True
+    print("Debsos DITU\n")
+    ch = 'y'
     while running:
         p = int(input("1. Add a Participant\n2. Mark Attendance\n3. Extract CSV\nInput:"))
         if p == 1:
