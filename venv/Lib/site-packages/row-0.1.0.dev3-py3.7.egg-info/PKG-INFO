@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: row
+Version: 0.1.0.dev3
+Summary: A brand-new tabular format
+Home-page: https://github.com/turicas/row/
+Author: Álvaro Justen
+Author-email: alvarojusten@gmail.com
+License: UNKNOWN
+Description: No matter in which format your tabular data is: rows will import it,
+        automatically detect types and give you high-level Python objects so you can
+        start working with the data instead of trying to parse it. It is also
+        locale-and-unicode aware. :)
+        
+        See a quick start tutorial at:
+            https://github.com/turicas/rows/blob/develop/README.md
+Keywords: tabular,table,row,xls,xlsx,csv,rows
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities

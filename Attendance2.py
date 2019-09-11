@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 
+
 def addParticipant():
     f = open('On the Spot.csv', "a")
     more='y'
@@ -23,6 +24,7 @@ def addParticipant():
         more=input("Add more?")
     f.close()
 
+
 def attendance():
     more='y'
     flag=1
@@ -35,15 +37,13 @@ def attendance():
         name = str(input())
         df2= df[df["Name"].str.contains(name)]
         print(df2)
-        if(flag==1):
-            export_csv=df2.to_csv ('Final Attendance.csv', index = None, header=True)
-            flag=0
-        else:
-            attendees1=df2.values.tolist()
-            f2=open('Final Attendance.csv',"a")
-            file2=csv.writer(f2)
-            file2.writerow(attendees1)
+
+        attendees1=df2.values.tolist()
+        f2=open('Final Attendance.csv',"a")
+        file2=csv.writer(f2)
+        file2.writerow(attendees1)
         more=input("Mark Attendance of more Students?")
+
 
 def extract():
     df = pd.read_csv('Registrations.csv')
@@ -62,8 +62,6 @@ if __name__ == '__main__':
             addParticipant()
         elif p == 2:
             attendance()
-        elif p == 3:
-            extract()
         else:
             print("Invalid Input. ")
         print("Press y to continue")

@@ -1,2 +1,6 @@
 Name,Branch,Year,For/Against,Phone,Email,Attendance
-ansha,elec,3.0,for,55633.0,ioi,0.0
+"['ansha', 'elec', 3.0, 'for', 55633.0, 'ioi', 0.0]"
+"['anshb', 'elec', 2.0, 'against', 32422.0, 'pop', 0.0]","['anshbajaj', 'cse', 3.0, 'aga', 90099987.0, 'ashst@gmail.com', 1.0]"
+
+"['anshc', 'cse', 4.0, 'for', 448.0, 'uyu', 0.0]"
+"['anshd', 'mech', 1.0, 'against', 15555.0, 'tty', 0.0]"
