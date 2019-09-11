@@ -1,14 +1,11 @@
 import pandas as pd
 import csv
 
-
-
 def addParticipant():
     f = open('On the Spot.csv', "a")
     more='y'
     while more=='y':
-        print("Enter Name:")
-        name = str(input())
+        name = str(input("Enter Name:"))
         print("Enter Branch:")
         branch = str(input())
         print("Enter Year:  (1,2,3 or 4)")
@@ -31,7 +28,7 @@ def attendance():
     flag=1
     while more=='y':
         df = pd.read_csv('Registrations.csv')
-        df2 = pd.read_csv('Final Attendance.csv')
+        # df2 = pd.read_csv('Final Attendance.csv')
         attendees1=[]
         df.dropna(inplace=True)
         print("Enter Name:")
