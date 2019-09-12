@@ -45,13 +45,6 @@ def attendance():
         more=input("Mark Attendance of more Students?")
 
 
-def extract():
-    df = pd.read_csv('Registrations.csv')
-    df1 = df[df['Attendance'] == 1]
-    df1.reset_index()
-    df1.to_csv("Final Attendance.csv", index=False)
-
-
 if __name__ == '__main__':
     running = True
     print("Debsos DITU\n")
