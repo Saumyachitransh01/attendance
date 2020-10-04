@@ -14,7 +14,7 @@ def addParticipant():
         print("For or Against:")
         side = str(input())
         print("Enter Phone Number:")
-        phone = input()
+        phone = int(input())
         print("Enter Email Address:")
         email = str(input())
         row = [name, branch, year, side, phone, email, '1']
